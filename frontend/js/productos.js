@@ -1,22 +1,11 @@
-
-
 // Class / Constructor 
 class Product{
     constructor(id, name, category, price){
         this.id = id;
         this.name = name;
-        this.categori = category;
+        this.category = category;
         this.price = price;
     }
-}
-
-// Filtrar Productos
-function filterPrice(products){
-    const  result = products.filter(product => {
-    const  condition = product.price >= 10000
-    return condition;
-    })
-    return result
 }
 
 // Array de productos
@@ -28,10 +17,21 @@ const products = [
     new Product(5, "Campera de Entrenamiento", "abrigos", 25000),
 ];
 
+//Filtro ingresado por el usuario
 
-// Para probarlo en consola
-const productosFiltrados = filterPrice(products);
+const userCategory = prompt("Ingresa la categoria por cual filtrar. (Remeras, Shorts, Accesorios y Abrigos)").toLowerCase().trim()
 
+const filteredProduct = products.filter(product => 
+    product.category.toLowerCase().trim() === userCategory
+);
+
+// Mostrar los productos
+
+if (filteredProduct.length > 0) {
+    console.log("Productos filtrados:", filteredProduct)
+} else {
+    console.log("No se encontraron productos en esa categoria")
+};
 
 
 
