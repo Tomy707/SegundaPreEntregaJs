@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css"">
-    <title>Tienda Boca</title>
+    <title>Boca Shop</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
-        <div>
-              <a href="./index.html"> <img  src="./img/bocaLogo.png" alt="logo boca juniors"></a>
-        </div>
-
-        
-        <nav class="navBar">
-            <ul>
-                <li class="botonesIndicadores"> <a href="./index.html"> Tienda </a> </li>
-                <li> <a href="./pages/galeria.html"> Galeria </a> </li>
-                <li> <a href="./pages/himno.html"> Himno </a> </li>
-                <li> <a href="./pages/titulos.html"> Titulos </a> </li>
-                <li> <a href="./pages/ubicacion.html"> Ubicacion </a> </li>
-            </ul>
-        </nav>
+        <h1>Tienda Oficial de Boca Juniors</h1>
     </header>
-
+    <nav id="categorias">
+        <button class="categoria-btn active" data-categoria="todos">Todos los productos</button>
+        <button class="categoria-btn" data-categoria="remeras">Remeras</button>
+        <button class="categoria-btn" data-categoria="shorts">Shorts</button>
+        <button class="categoria-btn" data-categoria="medias">Medias</button>
+        <button class="categoria-btn" data-categoria="abrigos">Abrigos</button>
+    </nav>
     <main>
-        <script src="./JS/productos.js"> </script>
+        <section id="productos"></section>
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p>Total: $<span id="total">0</span></p>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+        </section>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/productos.js"></script>
+</body>
 </html>
