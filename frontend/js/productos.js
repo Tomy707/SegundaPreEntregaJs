@@ -98,7 +98,7 @@ const addToCart = (id) => {
             duration: 3000,
             gravity: "bottom",
             position: "right",
-            backgroundColor: "var(--boca-blue)",
+            backgroundColor: "#0f1d69",
         }).showToast();
     } else {
         Swal.fire({
@@ -106,7 +106,7 @@ const addToCart = (id) => {
             text: `Lo sentimos, no tenemos más stock de ${product.name}`,
             icon: 'error',
             confirmButtonText: 'Entendido',
-            confirmButtonColor: 'var(--boca-blue)',
+            confirmButtonColor: '#0f1d69',
         });
     }
 };
@@ -131,7 +131,7 @@ const incrementQuantity = (id) => {
             text: `Lo sentimos, no tenemos más stock de ${product.name}`,
             icon: 'error',
             confirmButtonText: 'Entendido',
-            confirmButtonColor: 'var(--boca-blue)',
+            confirmButtonColor: '#0f1d69',
         });
     }
 };
