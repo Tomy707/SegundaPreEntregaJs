@@ -1,0 +1,146 @@
+[
+    {
+      "id": 1,
+      "img": "frontend/img/CamisetaAlternativaBocaJrs2425.png",
+      "name": "Camiseta Alternativa Boca Jrs 24/25",
+      "category": "remeras",
+      "price": 50000,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "img": "frontend/img/CamisetadeArquero2425.png",
+      "name": "Camiseta de Arquero 24/25",
+      "category": "remeras",
+      "price": 45000,
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "img": "frontend/img/CamisetaPrePartidoBocaJrs2425.png",
+      "name": "Camiseta Pre Partido Boca Jrs 24/25",
+      "category": "remeras",
+      "price": 30000,
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "img": "frontend/img/CamisetaTitularBocaJrs2425.png",
+      "name": "Camiseta Titular Boca Jrs 24/25",
+      "category": "remeras",
+      "price": 90000,
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "img": "frontend/img/TerceraCamisetaAutenthicBoca2024.png",
+      "name": "Tercera Camiseta Autenthic Boca 2024",
+      "category": "remeras",
+      "price": 75000,
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "img": "frontend/img/ShortAlternativoAuthentic2324.png",
+      "name": "Short Alternativo Authentic 23/24",
+      "category": "shorts",
+      "price": 35000,
+      "stock": 18
+    },
+    {
+      "id": 7,
+      "img": "frontend/img/ShortAlternativoBocaJrs2425.png",
+      "name": "Short Alternativo Boca Jrs 24/25",
+      "category": "shorts",
+      "price": 30000,
+      "stock": 14
+    },
+    {
+      "id": 8,
+      "img": "frontend/img/ShortdeArquero2425.png",
+      "name": "Short de Arquero 24/25",
+      "category": "shorts",
+      "price": 27000,
+      "stock": 16
+    },
+    {
+      "id": 9,
+      "img": "frontend/img/ShortTercerUniformeBoca2024.png",
+      "name": "Short Tercer Uniforme Boca 2024",
+      "category": "shorts",
+      "price": 40000,
+      "stock": 11
+    },
+    {
+      "id": 10,
+      "img": "frontend/img/ShortTitularBocaJrs2425.png",
+      "name": "Short Titular Boca Jrs 24/25",
+      "category": "shorts",
+      "price": 20000,
+      "stock": 19
+    },
+    {
+      "id": 11,
+      "img": "frontend/img/MediasAlternativasBocaJrs2223.png",
+      "name": "Medias Alternativas Boca Jrs 22/23",
+      "category": "medias",
+      "price": 10000,
+      "stock": 13
+    },
+    {
+      "id": 12,
+      "img": "frontend/img/MediasTercerUniforme2223.png",
+      "name": "Medias Tercer Uniforme 22/23",
+      "category": "medias",
+      "price": 12000,
+      "stock": 17
+    },
+    {
+      "id": 13,
+      "img": "frontend/img/MediasTercerUniforme2324.png",
+      "name": "Medias Tercer Uniforme 23/24",
+      "category": "medias",
+      "price": 16000,
+      "stock": 9
+    },
+    {
+      "id": 14,
+      "img": "frontend/img/MediasTercerUniformeBocaJuniors2024.png",
+      "name": "Medias Tercer Uniforme Boca Juniors 2024",
+      "category": "medias",
+      "price": 6999,
+      "stock": 21
+    },
+    {
+      "id": 15,
+      "img": "frontend/img/MediasUniformeAlternativoBocaJuniors2324.png",
+      "name": "Medias Alternativo Boca Juniors 23/24",
+      "category": "medias",
+      "price": 8999,
+      "stock": 15
+    },
+    {
+      "id": 16,
+      "img": "frontend/img/BuzoEstampadoconCapuchaBocaJuniors.png",
+      "name": "Buzo Estampado Boca Juniors",
+      "category": "abrigos",
+      "price": 70000,
+      "stock": 7
+    },
+    {
+      "id": 17,
+      "img": "frontend/img/CamperaInviernoBocaJrs.png",
+      "name": "Campera Invierno Boca Jrs",
+      "category": "abrigos",
+      "price": 120000,
+      "stock": 5
+    },
+    {
+      "id": 18,
+      "img": "frontend/img/CamperaSZNWB.png",
+      "name": "Campera SZNWB",
+      "category": "abrigos",
+      "price": 99999,
+      "stock": 6
+    }
+  ]
